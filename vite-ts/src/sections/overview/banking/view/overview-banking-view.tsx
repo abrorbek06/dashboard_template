@@ -66,14 +66,14 @@ export function OverviewBankingView() {
               title="Expenses categories"
               chart={{
                 series: [
-                  { label: 'Entertainment', value: 22 },
-                  { label: 'Fuel', value: 18 },
-                  { label: 'Fast food', value: 16 },
-                  { label: 'Cafe', value: 17 },
-                  { label: 'Сonnection', value: 14 },
-                  { label: 'Healthcare', value: 22 },
-                  { label: 'Fitness', value: 10 },
-                  { label: 'Supermarket', value: 21 },
+                  { label: 'Uzum', value: 22 },
+                  { label: 'Payme', value: 18 },
+                  { label: 'Cash', value: 16 },
+                  { label: 'Limon Pay', value: 17 },
+                  { label: 'Click', value: 14 },
+                  { label: 'With Cart', value: 22 },
+                  // { label: 'Fitness', value: 10 },
+                  // { label: 'Supermarket', value: 21 },
                 ],
                 icons: [
                   <Iconify icon="solar:gamepad-bold" />,
@@ -82,8 +82,8 @@ export function OverviewBankingView() {
                   <Iconify icon="solar:tea-cup-bold" />,
                   <Iconify icon="solar:smartphone-2-bold" />,
                   <Iconify icon="solar:medical-kit-bold" />,
-                  <Iconify icon="solar:dumbbell-large-minimalistic-bold" />,
-                  <Iconify icon="solar:cart-3-bold" />,
+                  // <Iconify icon="solar:dumbbell-large-minimalistic-bold" />,
+                  // <Iconify icon="solar:cart-3-bold" />,
                 ],
               }}
             />
