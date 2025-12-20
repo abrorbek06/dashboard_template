@@ -180,7 +180,7 @@ export const _bankingContacts = Array.from({ length: 12 }, (_, index) => ({
 export const _bankingCreditCard = [
   {
     id: _mock.id(2),
-    balance: 23432.03,
+    balance: 32432.03,
     cardType: 'mastercard',
     cardHolder: _mock.fullName(2),
     cardNumber: '**** **** **** 3640',
