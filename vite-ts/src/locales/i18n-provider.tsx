@@ -34,4 +34,3 @@ type I18nProviderProps = {
 export function I18nProvider({ children }: I18nProviderProps) {
   return <Provider i18n={i18next}>{children}</Provider>;
 }
-

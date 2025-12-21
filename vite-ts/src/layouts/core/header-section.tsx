@@ -10,6 +10,7 @@ import { styled } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 
 import { layoutClasses } from './classes';
+import Box from '@mui/material/Box';
 
 // ----------------------------------------------------------------------
 
@@ -147,3 +148,5 @@ const HeaderCenterArea = styled('div')(() => ({
   flex: '1 1 auto',
   justifyContent: 'center',
 }));
+
+// ----------------------------------------------------------------------
